@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+:root{
+--main-bg-color:#2aa59c;
+}
+*{padding:0;
+margin:0;}
+header{
+    background:black;
+    font-family:'Lora', serif;
+}
+nav{
+    display:flex;
+}
+.logo{
+    display:flex;
+}
+.logo img{
+    width:150px;
+    padding:0 10px 5px;
+}
+nav ul{
+    height:75px;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+nav ul li{
+    list-style: none;
+    padding:0 23px;
+}
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-family: 'Lora', serif;
+}
+nav ul li a:hover{
+    color:#2aa59c;
+    font-style:bold;
+}
+.search{
+    display:flex;
+    align-items:center;
+}
+.search input{
+    width:30vw;
+    height:40px;
+    border-radius:5px;
+    margin:0 15px 0 45px;
+    padding:0 15px;
+    font-family: 'Lora',serif;
+}
+.search button{
+    font-family: 'Lora',serif;
+    font-weight:500;
+}
+.slider{
+    width:80vw;
+    margin:10px 500px;
+    overflow:hidden;
+}
+.card{
+    max-width:91vw;
+    margin:37px auto;
+}
+.cards{
+    display:flex;
+    overflow:hidden;
+    
+}
+.card-item{
+    display:inline-flex;
+    justify-content: center;
+    flex-direction:column;
+    margin:0 15px;
+}
+.card h2{
+    font-family: 'Lora', serif;
+}
+.cont{
+    min-height: calc(100vh - 58px - 10vh);
+}
+
+footer{
+    height:10vh;
+    background-color:var(--main-bg-color);
+    color:white;
+    font-family: 'Lora', serif;
+}
